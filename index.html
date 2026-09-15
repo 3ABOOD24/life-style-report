@@ -15,7 +15,7 @@
         <h1>LifeList</h1>
         <p class="sub">Your personal tracker — create, edit, save.</p>
         <div class="container1">
-            <h2>Add Item</h2>
+            <h2 class="h2_1">Add Item</h2>
             <form class="con1">
                 <label for="titlep">Title</label>
                 <input type="text" id="titlep" placeholder="e.g. Go train" required>
@@ -28,8 +28,12 @@
                 </select>
                 <label for="notes">notes</label>
                 <textarea name="notes" id="notes" placeholder="Optional details..."></textarea>
+                <div class="btns">
+                    <button type="submit" class="btn1">Add item</button>
+                    <button type="submit" class="cancel">cancel</button>
+                </div>
             </form>
-            <button type="submit" class="btn1">Add item</button>
+
         </div>
         <div class="container2">
             <div class="ganmb">
@@ -42,6 +46,7 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
