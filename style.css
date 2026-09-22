@@ -152,6 +152,7 @@ h2 {
     cursor: pointer;
 }
 .pp {
+    display: flex;
     margin: 30px;
     font-size: 15px;
     color: var(--second);
